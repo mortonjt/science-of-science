@@ -1,6 +1,7 @@
 channels:
   - defaults
 dependencies:
+  - pip
   - ipykernel=5.1.1
   - ipython=7.6.1
   - ipython_genutils=0.2.0
@@ -16,6 +17,9 @@ dependencies:
   - scipy=1.2.1
   - seaborn=0.9.0
   - statsmodels=0.10.0
+  - nltk=3.4.3
+  - lxml
   - pip:
     - gensim==3.8.0
     - umap-learn==0.3.9
+    - pyLDAvis==2.1.2
